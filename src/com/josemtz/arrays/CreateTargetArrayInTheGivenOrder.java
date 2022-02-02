@@ -15,6 +15,7 @@ public class CreateTargetArrayInTheGivenOrder {
 
     // edge cases
     public static int[] createTargetArray(int[] nums, int[] index) {
+
         int[] target = new int[nums.length];
         Arrays.fill(target, -1);
 
@@ -23,12 +24,12 @@ public class CreateTargetArrayInTheGivenOrder {
             //If index is -1 means no value has been place meaning you can place a value there.
             if (target[index[i]] == -1) {
                 target[index[i]] = nums[i];
+
             }else{
-                //if value is not -1 means there is already one value there,
+                // if value is not -1 means there is already one value there,
                 // and we have to rotate all of them to the right to make space. so we can put ours in there.
 
             }
-
         }
 
         return target;
