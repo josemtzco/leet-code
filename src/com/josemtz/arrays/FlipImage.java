@@ -9,6 +9,7 @@ public class FlipImage {
                 {0, 0, 0}
         };
         flipImage(image);
+
         for(int row = 0; row< image.length; row++){
             for(int column = 0; column < image[row].length; column++){
                 System.out.print(image[row][column] + ", ");
