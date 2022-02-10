@@ -13,7 +13,6 @@ public class ShuffleArray {
     }
 
     public static int[] shuffle(int[] nums, int n) {
-//        int[] ans = new int[nums.length];
         int[] ans = nums.clone();
 
         int ansIndex = 0;
