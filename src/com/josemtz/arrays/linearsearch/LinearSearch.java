@@ -9,14 +9,17 @@ public class LinearSearch {
     }
 
     //search in the array: return item if item found
-    static int linearSearch(int[] arr, int target){
+    static int linearSearch(int[] arr, int target) {
 
-        if(arr.length == 0){
+        if (arr.length == 0) {
             return -1;
         }
 
-        for(int i = 0 ; i<arr.length; i++){
-            
+        for (int i = 0; i < arr.length; i++) {
+
         }
+        return -1;
     }
+
 }
+
